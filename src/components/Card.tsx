@@ -14,7 +14,7 @@ const Card:FC<CardProps> = (props) => {
 
 
   return (
-    <div className="card xl:card-side bg-base-100 shadow-xl mx-4 lg:mx-5 xl:w-full">
+    <div className="card xl:card-side bg-base-100 shadow-xl mx-4 lg:mx-5 xl:w-full sm:mb-8">
       <figure><img src={props.imageSrc} alt="Album" className='h-auto xl:w-[30vw] w-auto' draggable="false" /></figure>
       <div className="card-body">
         <h2 className="card-title">{props.title}</h2>
