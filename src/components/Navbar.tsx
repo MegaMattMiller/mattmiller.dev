@@ -1,8 +1,8 @@
-import React from 'react'
+import { FC } from 'react'
 import { FaGithubSquare, FaDev, FaEnvelopeSquare } from 'react-icons/fa';
 
 
-const Navbar = () => {
+const Navbar:FC = () => {
   return (
     <div className="navbar bg-neutral text-neutral-content w-full flex flex-row justify-start">
       <h1 className="pr-0">Matt Miller | Programmer</h1>
